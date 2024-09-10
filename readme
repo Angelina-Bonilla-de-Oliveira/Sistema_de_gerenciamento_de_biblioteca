@@ -1,0 +1,61 @@
+Enunciado do Projeto
+Este projeto consiste na implementação de um sistema de gerenciamento de uma biblioteca utilizando um banco de dados relacional MySQL. O sistema é capaz de armazenar e manipular dados sobre autores, livros e empréstimos realizados, permitindo realizar consultas, atualizações e remoções de registros. As funcionalidades incluem:
+
+Cadastro de autores e livros.
+Registro de empréstimos de livros e controle das devoluções.
+Listagem de livros por autor.
+Relatório de livros emprestados por autor.
+Detecção de livros emprestados múltiplas vezes.
+Remoção de livros e seus empréstimos associados.
+Funcionalidades do Banco de Dados
+Criação de Tabelas:
+
+Autores: Armazena informações dos autores (nome e nacionalidade).
+Livros: Armazena informações dos livros (título, ano de publicação, gênero) e a relação com o autor.
+Empréstimos: Armazena informações sobre os empréstimos realizados (data de empréstimo, data de devolução, nome do usuário que realizou o empréstimo).
+Inserção de Dados:
+
+Autores e livros são adicionados inicialmente à base de dados.
+Registros de empréstimos de livros são criados.
+Consultas:
+
+Listar todos os livros com os respectivos autores.
+Listar empréstimos que ainda estão em aberto (sem data de devolução).
+Gerar relatórios de livros emprestados por autor e de livros que foram emprestados mais de uma vez.
+Atualizações e Exclusões:
+
+Atualizar a data de devolução de um empréstimo.
+Remover um livro e todos os empréstimos associados a ele.
+Instruções para Rodar o Projeto
+Instalar o MySQL: Se você ainda não tem o MySQL instalado, siga as instruções neste link.
+
+Criar o Banco de Dados: Abra o terminal ou seu cliente de banco de dados MySQL e execute o script SQL fornecido. Ele criará as tabelas e fará as inserções iniciais de dados.
+
+Execução de Consultas: Utilize o ambiente MySQL para executar as consultas e interações com o banco de dados.
+
+Atualizações e Exclusões: Modifique os dados conforme necessário usando as instruções de UPDATE e DELETE contidas no script.
+
+Estrutura do Projeto
+biblioteca.sql: Contém todas as instruções SQL para a criação do banco de dados, tabelas e consultas.
+README.md: Arquivo de explicação sobre o projeto (este arquivo).
+.gitignore: Especifica os arquivos e diretórios que não devem ser versionados pelo Git.
+README.md
+Biblioteca - Sistema de Gerenciamento de Empréstimos
+Descrição
+Este projeto implementa um sistema de gerenciamento de biblioteca utilizando MySQL. O sistema permite cadastrar autores, livros, realizar empréstimos, acompanhar devoluções e consultar informações sobre livros e empréstimos. Ele também possui funcionalidades para atualizar registros e gerar relatórios, como a quantidade de livros emprestados por autor e livros que foram emprestados mais de uma vez.
+
+Estrutura do Banco de Dados
+O banco de dados contém as seguintes tabelas:
+
+Autores: Armazena os autores e suas nacionalidades.
+Livros: Armazena os livros, incluindo o autor, ano de publicação e gênero.
+Empréstimos: Armazena os empréstimos de livros realizados, com data de empréstimo, data de devolução e nome do usuário.
+Funcionalidades
+Cadastro de autores e livros.
+Registro de empréstimos e controle de devoluções.
+Atualizações e exclusões de registros.
+Consultas e relatórios, como listar livros por autor e empréstimos em aberto.
+Como Executar
+Instale o MySQL em seu ambiente.
+Execute o script SQL biblioteca.sql para criar o banco de dados e as tabelas, e inserir os dados iniciais.
+Utilize o MySQL para realizar consultas e manipulações no banco de dados.
