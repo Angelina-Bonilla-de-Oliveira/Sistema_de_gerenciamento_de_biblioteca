@@ -1,0 +1,17 @@
+# Arquivos de configuração local
+*.env
+*.ini
+*.log
+
+# Arquivos de backup de banco de dados
+*.sql.bak
+*.sql~
+dump.sql
+
+# Arquivos temporários de sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Diretórios do sistema
+node_modules/
+vendor/
