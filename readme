@@ -1,4 +1,4 @@
-Enunciado do Projeto
+# Enunciado do Projeto
 Este projeto consiste na implementação de um sistema de gerenciamento de uma biblioteca utilizando um banco de dados relacional MySQL. O sistema é capaz de armazenar e manipular dados sobre autores, livros e empréstimos realizados, permitindo realizar consultas, atualizações e remoções de registros. As funcionalidades incluem:
 
 Cadastro de autores e livros.
